@@ -1,0 +1,430 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  background-color: #e4eadc;
+
+  font-family: "Gaegu", cursive;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 45px 0;
+}
+
+
+/* =========================
+   전체 페이지
+========================= */
+
+.totoro-page {
+  width: 950px;
+
+  background-color: #fffdf6;
+
+  border: 2px solid #cad5bd;
+  border-radius: 18px;
+
+  padding: 45px 55px;
+
+  box-shadow: 9px 9px 0px #c7d1bd;
+
+  position: relative;
+}
+
+
+/* ABOUT 버튼 */
+
+.back-button {
+  float: right;
+
+  padding: 6px 15px;
+
+  background-color: #e3eddc;
+
+  border-radius: 15px;
+
+  color: #708269;
+
+  font-size: 14px;
+
+  text-decoration: none;
+}
+
+.back-button:hover {
+  background-color: #f1dfdc;
+
+  color: #b17d82;
+}
+
+
+/* 날짜 */
+
+.date {
+  color: #8c9f84;
+
+  font-size: 13px;
+  letter-spacing: 2px;
+
+  border-bottom: 1px solid #d1ddc7;
+
+  padding-bottom: 12px;
+
+  margin-top: 0;
+}
+
+
+/* =========================
+   제목
+========================= */
+
+.title-area {
+  text-align: center;
+
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+.small-title {
+  color: #96a58d;
+
+  font-size: 12px;
+  letter-spacing: 4px;
+
+  margin-bottom: 3px;
+}
+
+h1 {
+  color: #718a68;
+
+  font-size: 45px;
+  font-weight: normal;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  color: #aaa69b;
+
+  font-size: 15px;
+
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+
+/* =========================
+   메인 앨범 영역
+========================= */
+
+.album {
+  min-height: 570px;
+
+  background-color: #edf2e7;
+
+  border: 1px solid #d1dcc7;
+  border-radius: 15px;
+
+  padding: 35px;
+
+  position: relative;
+
+  box-shadow: inset 0px 0px 10px #d7dfd0;
+}
+
+
+/* =========================
+   사진 공통
+========================= */
+
+.photo-card {
+  position: absolute;
+
+  width: 250px;
+
+  background-color: #fffdf9;
+
+  padding: 11px 11px 8px 11px;
+
+  box-shadow: 4px 5px 8px #c6c9be;
+
+  text-align: center;
+}
+
+.photo-card img {
+  width: 100%;
+  height: 390px;
+
+  object-fit: cover;
+}
+
+.photo-caption {
+  color: #788471;
+
+  font-size: 17px;
+
+  margin-top: 8px;
+  margin-bottom: 3px;
+}
+
+
+/* 왼쪽 사진 */
+
+.photo-left {
+  left: 35px;
+  top: 65px;
+
+  transform: rotate(-4deg);
+}
+
+
+/* 오른쪽 사진 */
+
+.photo-right {
+  right: 35px;
+  top: 65px;
+
+  transform: rotate(4deg);
+}
+
+
+/* 마우스를 사진에 올렸을 때 */
+
+.photo-card:hover {
+  transform: rotate(0deg);
+}
+
+
+/* =========================
+   사진 위 테이프
+========================= */
+
+.tape {
+  position: absolute;
+
+  width: 80px;
+  height: 22px;
+
+  background-color: #d8d4b7;
+
+  opacity: 0.8;
+
+  top: -12px;
+  left: 95px;
+}
+
+.tape-left {
+  transform: rotate(-4deg);
+}
+
+.tape-right {
+  transform: rotate(5deg);
+}
+
+
+/* =========================
+   가운데 이야기 메모
+========================= */
+
+.story-note {
+  position: absolute;
+
+  width: 270px;
+
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%) rotate(-1deg);
+
+  background-color: #fff8dd;
+
+  border: 1px solid #d9cfaa;
+
+  padding: 25px;
+
+  box-shadow: 4px 5px 7px #c7c8bb;
+
+  color: #625f57;
+
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+
+/* 작은 제목 */
+
+.note-label {
+  color: #849879;
+
+  font-size: 11px;
+  letter-spacing: 2px;
+
+  border-bottom: 1px dashed #c8c6aa;
+
+  padding-bottom: 7px;
+
+  margin-top: 0;
+  margin-bottom: 7px;
+}
+
+
+/* Totoro 제목 */
+
+.story-note h2 {
+  color: #6f8866;
+
+  font-size: 31px;
+  font-weight: normal;
+
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+
+/* 본문 */
+
+.story {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+
+/* 지브리, 토토로 강조 */
+
+.highlight {
+  color: #718c67;
+
+  font-size: 18px;
+
+  border-bottom: 2px solid #b9cba9;
+}
+
+
+/* 굿즈 부분 강조 */
+
+.underline {
+  color: #a37d70;
+
+  border-bottom: 2px solid #ddc3ae;
+}
+
+
+/* 가운데 잎 장식 */
+
+.leaf-line {
+  text-align: center;
+
+  color: #8da482;
+
+  font-size: 14px;
+
+  margin: 12px 0;
+}
+
+
+/* 작은 낙서 */
+
+.scribble {
+  color: #b7837c;
+
+  font-size: 15px;
+
+  text-align: right;
+
+  margin-bottom: 0;
+
+  transform: rotate(-3deg);
+}
+
+
+/* =========================
+   Why I Love Totoro
+========================= */
+
+.why-box {
+  width: 720px;
+
+  margin: 35px auto 0 auto;
+
+  background-color: #f3e9dd;
+
+  border: 1px dashed #cdb8a7;
+  border-radius: 13px;
+
+  padding: 18px 25px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+
+  color: #625e58;
+
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+/* 잎 아이콘 */
+
+.why-icon {
+  width: 60px;
+  height: 60px;
+
+  background-color: #e1ead9;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 27px;
+}
+
+
+/* 글 부분 */
+
+.why-text {
+  flex: 1;
+}
+
+.why-title {
+  color: #7b9270;
+
+  font-size: 21px;
+
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
+.why-text p:last-child {
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+
+
+/* =========================
+   아래 이동
+========================= */
+
+.navigation {
+  margin-top: 25px;
+
+  text-align: center;
+}
+
+.navigation a {
+  color: #7f9477;
+
+  font-size: 16px;
+
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: #c78b90;
+}

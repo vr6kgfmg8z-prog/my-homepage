@@ -1,0 +1,400 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  background-color: #eee8df;
+
+  font-family: "Gaegu", cursive;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 45px 0;
+}
+
+
+/* 전체 유키 페이지 */
+
+.yuki-page {
+  width: 900px;
+
+  background-color: #fffaf3;
+
+  border: 2px solid #dfd2c3;
+  border-radius: 12px;
+
+  padding: 45px 55px;
+
+  box-shadow: 9px 9px 0px #d9d1c7;
+}
+
+
+/* COVER 버튼 */
+
+.back-button {
+  float: right;
+
+  padding: 6px 15px;
+
+  background-color: #f3dfdf;
+
+  border-radius: 15px;
+
+  color: #a9787d;
+
+  font-size: 14px;
+
+  text-decoration: none;
+}
+
+.back-button:hover {
+  background-color: #e4eef1;
+
+  color: #78949f;
+}
+
+
+/* 날짜 */
+
+.date {
+  color: #a49a91;
+
+  font-size: 13px;
+
+  letter-spacing: 2px;
+
+  border-bottom: 1px solid #e2d4c8;
+
+  padding-bottom: 12px;
+}
+
+
+/* 제목 */
+
+.title-area {
+  text-align: center;
+
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+.small-title {
+  color: #b3978d;
+
+  font-size: 12px;
+
+  letter-spacing: 4px;
+
+  margin-bottom: 2px;
+}
+
+h1 {
+  color: #c98f94;
+
+  font-size: 45px;
+
+  font-weight: normal;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  color: #aaa19b;
+
+  font-size: 15px;
+
+  margin-top: 2px;
+}
+
+
+/* ----------------------- */
+/* 사진 벽 */
+/* ----------------------- */
+
+.photo-wall {
+  min-height: 650px;
+
+  background-color: #eee5d8;
+
+  border-radius: 10px;
+
+  padding: 35px;
+
+  position: relative;
+
+  box-shadow: inset 0px 0px 10px #ddd1c2;
+}
+
+
+/* 폴라로이드 공통 */
+
+.polaroid {
+  position: absolute;
+
+  background-color: white;
+
+  padding: 10px 10px 8px 10px;
+
+  box-shadow: 4px 5px 8px #c9bfb5;
+
+  text-align: center;
+}
+
+.polaroid img {
+  width: 100%;
+
+  height: 220px;
+
+  object-fit: cover;
+}
+
+.polaroid p {
+  color: #8e7b74;
+
+  font-size: 16px;
+
+  margin-top: 8px;
+  margin-bottom: 3px;
+}
+
+
+/* 첫 번째 사진 */
+
+.photo1 {
+  width: 210px;
+
+  left: 45px;
+  top: 45px;
+
+  transform: rotate(-5deg);
+}
+
+
+/* 두 번째 사진 */
+
+.photo2 {
+  width: 215px;
+
+  right: 45px;
+  top: 35px;
+
+  transform: rotate(5deg);
+}
+
+
+/* 세 번째 사진 */
+
+.photo3 {
+  width: 220px;
+
+  left: 55px;
+  bottom: 40px;
+
+  transform: rotate(4deg);
+}
+
+
+/* 네 번째 사진 */
+
+.photo4 {
+  width: 210px;
+
+  right: 55px;
+  bottom: 40px;
+
+  transform: rotate(-4deg);
+}
+
+
+/* 사진에 마우스 올렸을 때 */
+
+.polaroid:hover {
+  transform: rotate(0deg);
+
+  z-index: 5;
+}
+
+
+/* ----------------------- */
+/* 가운데 프로필 메모 */
+/* ----------------------- */
+
+.profile-note {
+  position: absolute;
+
+  width: 260px;
+
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%) rotate(-2deg);
+
+  background-color: #fff8df;
+
+  border: 1px solid #ded0aa;
+
+  padding: 25px;
+
+  box-shadow: 4px 5px 7px #c9bfb5;
+}
+
+
+/* 작은 제목 */
+
+.profile-small {
+  color: #bc9891;
+
+  font-size: 12px;
+
+  letter-spacing: 2px;
+
+  margin-top: 0;
+
+  border-bottom: 1px dashed #dbc7b8;
+
+  padding-bottom: 7px;
+}
+
+
+/* 유키 이름 */
+
+.profile-note h2 {
+  color: #8d746b;
+
+  font-size: 30px;
+
+  font-weight: normal;
+
+  margin-top: 12px;
+  margin-bottom: 3px;
+}
+
+
+/* 이름 뜻 */
+
+.name-meaning {
+  display: flex;
+
+  gap: 8px;
+
+  margin-bottom: 18px;
+
+  color: #a6877c;
+}
+
+.arrow {
+  font-size: 22px;
+
+  color: #d0989c;
+}
+
+.name-meaning strong {
+  color: #b47f84;
+
+  font-size: 18px;
+}
+
+.name-meaning p {
+  color: #96847c;
+
+  font-size: 14px;
+
+  margin-top: 1px;
+  margin-bottom: 0;
+}
+
+
+/* 프로필 */
+
+.profile-info {
+  border-top: 1px dashed #d8c6b7;
+
+  padding-top: 10px;
+}
+
+.profile-info p {
+  color: #665d58;
+
+  font-size: 15px;
+
+  margin: 8px 0;
+}
+
+.profile-info span {
+  display: inline-block;
+
+  width: 105px;
+
+  color: #ae8580;
+
+  font-size: 11px;
+
+  letter-spacing: 1px;
+}
+
+
+/* ----------------------- */
+/* 유키에게 쓰는 편지 */
+/* ----------------------- */
+
+.letter {
+  width: 650px;
+
+  margin: 35px auto 0 auto;
+
+  background-color: #f8e7e6;
+
+  border: 1px dashed #d8aaa8;
+
+  border-radius: 12px;
+
+  padding: 20px 30px;
+
+  color: #685e59;
+
+  font-size: 17px;
+
+  line-height: 1.7;
+
+  text-align: center;
+}
+
+.letter-title {
+  color: #c4898d;
+
+  font-size: 22px;
+
+  margin-top: 0;
+  margin-bottom: 7px;
+}
+
+.last-message {
+  color: #b27e82;
+
+  font-size: 19px;
+
+  margin-bottom: 0;
+}
+
+
+/* 아래 이동 */
+
+.navigation {
+  margin-top: 25px;
+
+  text-align: center;
+}
+
+.navigation a {
+  color: #9a8580;
+
+  text-decoration: none;
+
+  font-size: 16px;
+}
+
+.navigation a:hover {
+  color: #d18f95;
+}

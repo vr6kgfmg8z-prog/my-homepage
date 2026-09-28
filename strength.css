@@ -1,0 +1,441 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  background-color: #f5e9df;
+
+  font-family: "Gaegu", cursive;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 40px 0;
+}
+
+
+/* 전체 페이지 */
+
+.diary-page {
+  width: 800px;
+
+  background-color: #fffaf5;
+
+  border: 2px solid #e8d3c5;
+  border-radius: 15px;
+
+  padding: 45px 55px;
+
+  box-shadow: 8px 8px 0px #dce8ee;
+}
+
+
+/* MAIN 버튼 */
+
+.main-button {
+  float: right;
+
+  padding: 6px 14px;
+
+  background-color: #f8e4e4;
+
+  border-radius: 15px;
+
+  color: #b9858a;
+
+  font-size: 14px;
+
+  text-decoration: none;
+}
+
+.main-button:hover {
+  background-color: #e4f0f4;
+
+  color: #7895a1;
+}
+
+
+/* 날짜 */
+
+.date {
+  color: #9aafb8;
+
+  font-size: 13px;
+  letter-spacing: 2px;
+
+  border-bottom: 1px solid #e8caca;
+
+  padding-bottom: 12px;
+}
+
+
+/* 제목 */
+
+h1 {
+  text-align: center;
+
+  color: #dc9fa3;
+
+  font-size: 42px;
+  font-weight: normal;
+
+  margin-top: 25px;
+  margin-bottom: 3px;
+}
+
+.subtitle {
+  text-align: center;
+
+  color: #aaa09a;
+
+  font-size: 15px;
+
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+
+/* 강점 카드 */
+
+.scrapbook {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.strength-card {
+  width: 260px;
+  min-height: 240px;
+
+  padding: 25px;
+
+  color: #665f5a;
+
+  font-size: 17px;
+  line-height: 1.6;
+
+  box-shadow: 3px 4px 6px #e1d7d0;
+}
+
+.pink-card {
+  background-color: #fae3e3;
+
+  transform: rotate(-2deg);
+}
+
+.blue-card {
+  background-color: #e4f0f4;
+
+  transform: rotate(2deg);
+}
+
+.tape {
+  display: inline-block;
+
+  background-color: #fffaf5;
+
+  color: #c58f94;
+
+  padding: 4px 10px;
+
+  font-size: 13px;
+  letter-spacing: 1px;
+
+  margin-top: 0;
+}
+
+.strength-card h2 {
+  color: #766c67;
+
+  font-size: 27px;
+  font-weight: normal;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+/* 가운데 원 */
+
+.center-note {
+  width: 90px;
+  height: 90px;
+
+  background-color: #f3e6d5;
+
+  border-radius: 50%;
+
+  text-align: center;
+
+  color: #a68e80;
+
+  font-size: 15px;
+  line-height: 1.1;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  transform: rotate(-5deg);
+}
+
+.center-note p {
+  margin: 0;
+}
+
+.center-note span {
+  color: #d99b9f;
+
+  font-size: 18px;
+
+  margin-top: 5px;
+}
+
+
+/* 실제 경험 */
+
+.experience {
+  margin-top: 40px;
+
+  background-color: #fff1f1;
+
+  border: 1px dashed #dfb7b7;
+  border-radius: 12px;
+
+  padding: 18px 25px;
+
+  color: #665f5a;
+
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.experience-title {
+  color: #d49398;
+
+  font-size: 21px;
+
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.experience p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* SORM 동그라미 */
+
+.sorm-mark {
+  display: inline-block;
+
+  color: #c77f87;
+
+  border: 2px solid #d9999f;
+  border-radius: 50%;
+
+  padding: 1px 8px;
+
+  font-weight: bold;
+
+  transform: rotate(-5deg);
+}
+
+
+/* SORM에서 공연사진으로 이어지는 화살표 */
+
+.sorm-arrow {
+  margin-left: 400px;
+
+  margin-top: 3px;
+  margin-bottom: 0;
+
+  display: flex;
+  align-items: center;
+
+  color: #cf969a;
+}
+
+.sorm-arrow span {
+  font-size: 35px;
+
+  transform: rotate(15deg);
+}
+
+.sorm-arrow p {
+  font-size: 15px;
+
+  margin-left: 7px;
+
+  transform: rotate(-3deg);
+}
+
+
+/* ---------------------- */
+/* 공연 기록 */
+/* ---------------------- */
+
+.performance {
+  width: 700px;
+
+  margin: 5px auto 0 auto;
+
+  background-color: #f5eee5;
+
+  padding: 28px 25px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 25px;
+
+  box-shadow: 3px 4px 7px #dfd4ca;
+
+  transform: rotate(-1deg);
+}
+
+
+/* 공연 폴라로이드 사진 */
+
+.performance-photo {
+  width: 225px;
+
+  background-color: white;
+
+  padding: 10px 10px 7px 10px;
+
+  box-shadow: 3px 4px 7px #cfc5bc;
+
+  text-align: center;
+
+  position: relative;
+
+  transform: rotate(-3deg);
+}
+
+.performance-photo img {
+  width: 100%;
+  height: 240px;
+
+  object-fit: cover;
+}
+
+.performance-photo p {
+  color: #b28185;
+
+  font-size: 17px;
+
+  margin-top: 7px;
+  margin-bottom: 2px;
+}
+
+
+/* 사진 위 테이프 */
+
+.photo-tape {
+  position: absolute;
+
+  width: 75px;
+  height: 20px;
+
+  background-color: #ead8c1;
+
+  left: 75px;
+  top: -12px;
+
+  opacity: 0.8;
+
+  transform: rotate(2deg);
+}
+
+
+/* 공연 설명 */
+
+.performance-note {
+  width: 390px;
+
+  color: #655e59;
+
+  font-size: 17px;
+
+  line-height: 1.6;
+}
+
+.performance-date {
+  display: inline-block;
+
+  color: #8ca4ae;
+
+  font-size: 12px;
+  letter-spacing: 2px;
+
+  border-bottom: 1px solid #b9cbd1;
+
+  padding-bottom: 3px;
+
+  margin-bottom: 3px;
+}
+
+.performance-note h2 {
+  color: #ca8e94;
+
+  font-size: 27px;
+  font-weight: normal;
+
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+
+/* '소원을 말해봐' 강조 */
+
+.song {
+  color: #c77e86;
+
+  border-bottom: 2px solid #e9b9bc;
+
+  white-space: nowrap;
+}
+
+
+/* 작은 낙서 */
+
+.little-note {
+  color: #8da6b0;
+
+  font-size: 16px;
+
+  text-align: right;
+
+  transform: rotate(-3deg);
+
+  margin-bottom: 0;
+}
+
+
+/* 페이지 이동 */
+
+.navigation {
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-top: 30px;
+}
+
+.navigation a {
+  color: #8da8b5;
+
+  text-decoration: none;
+
+  font-size: 16px;
+}
+
+.navigation a:hover {
+  color: #d89ca1;
+}

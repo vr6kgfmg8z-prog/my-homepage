@@ -1,0 +1,496 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  background-color: #f3e7dd;
+
+  font-family: "Gaegu", cursive;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 40px 0;
+}
+
+
+/* =========================
+   전체 About 페이지
+========================= */
+
+.about-page {
+  width: 900px;
+
+  background-color: #fffaf5;
+
+  border: 2px solid #e7d1c4;
+  border-radius: 18px;
+
+  padding: 40px 55px 35px 55px;
+
+  box-shadow: 9px 9px 0px #dce8ee;
+
+  position: relative;
+}
+
+
+/* 날짜 */
+
+.date {
+  color: #9aafb8;
+
+  font-size: 13px;
+  letter-spacing: 2px;
+
+  border-bottom: 1px solid #e8cccc;
+
+  padding-bottom: 12px;
+
+  margin-top: 0;
+}
+
+
+/* =========================
+   제목
+========================= */
+
+.title-area {
+  text-align: center;
+
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+h1 {
+  color: #dc9fa3;
+
+  font-size: 43px;
+  font-weight: normal;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  color: #aaa09a;
+
+  font-size: 15px;
+
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+
+/* =========================
+   메인 영역
+========================= */
+
+.about-content {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 35px;
+}
+
+
+/* =========================
+   왼쪽 사진
+========================= */
+
+.photo-area {
+  width: 220px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.polaroid {
+  width: 190px;
+
+  background-color: white;
+
+  padding: 10px 10px 8px 10px;
+
+  box-shadow: 4px 5px 8px #d6cbc3;
+
+  text-align: center;
+
+  transform: rotate(-3deg);
+}
+
+.polaroid img {
+  width: 100%;
+  height: 245px;
+
+  object-fit: cover;
+}
+
+.polaroid p {
+  color: #bd898d;
+
+  font-size: 19px;
+
+  margin-top: 8px;
+  margin-bottom: 3px;
+}
+
+
+/* =========================
+   가운데 정보 카드
+========================= */
+
+.info-card {
+  width: 225px;
+
+  background-color: #e7f0f3;
+
+  border-radius: 15px;
+
+  padding: 22px 25px;
+
+  box-shadow: 3px 4px 6px #d7e0e3;
+}
+
+.info {
+  margin-bottom: 15px;
+
+  white-space: nowrap;
+}
+
+.info:last-child {
+  margin-bottom: 0;
+}
+
+.info-title {
+  color: #819da8;
+
+  font-size: 12px;
+  letter-spacing: 2px;
+
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+.info-text {
+  color: #625f5b;
+
+  font-size: 20px;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+/* =========================
+   토토로 링크
+========================= */
+
+.favorite-info {
+  position: relative;
+
+  border-top: 1px dashed #b8cbd1;
+
+  padding-top: 13px;
+
+  margin-top: 5px;
+}
+
+.totoro-link {
+  display: inline-block;
+
+  color: #718b6d;
+
+  font-size: 20px;
+
+  text-decoration: none;
+
+  border-bottom: 2px solid #b9c9ae;
+
+  padding: 0 4px;
+
+  transition: 0.2s;
+}
+
+.totoro-link:hover {
+  color: #c6878d;
+
+  background-color: #f7f0dd;
+
+  transform: rotate(-2deg);
+}
+
+
+/* 토토로 옆 작은 click */
+
+.click-note {
+  display: inline-block;
+
+  color: #c69398;
+
+  font-size: 12px;
+
+  margin-left: 5px;
+  margin-top: 0;
+
+  transform: rotate(-5deg);
+}
+
+
+/* =========================
+   오른쪽 메뉴
+========================= */
+
+.menu-area {
+  width: 260px;
+
+  text-align: center;
+}
+
+.menu-title {
+  color: #c98d92;
+
+  font-size: 21px;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.menu-guide {
+  color: #a39b96;
+
+  font-size: 13px;
+
+  margin-top: 2px;
+  margin-bottom: 15px;
+}
+
+
+/* 동그라미 메뉴 */
+
+.circle {
+  width: 105px;
+  height: 105px;
+
+  border-radius: 50%;
+
+  display: inline-flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  vertical-align: middle;
+
+  margin: 6px;
+
+  color: #665f5b;
+
+  font-size: 16px;
+
+  line-height: 1.1;
+
+  text-decoration: none;
+
+  box-shadow: 2px 3px 5px #ddd5cf;
+
+  transition: 0.2s;
+}
+
+.circle span {
+  font-size: 11px;
+
+  letter-spacing: 1px;
+
+  margin-bottom: 3px;
+
+  color: #8d817b;
+}
+
+.circle:hover {
+  transform: translateY(-4px);
+}
+
+
+/* 메뉴 색상 */
+
+.pink {
+  background-color: #f6dddd;
+}
+
+.green {
+  background-color: #e4eddc;
+}
+
+.blue {
+  background-color: #dfecef;
+}
+
+.beige {
+  background-color: #f2e7d8;
+}
+
+
+/* =========================
+   자기소개
+========================= */
+
+.intro-box {
+  width: 650px;
+
+  margin: 35px auto 0 auto;
+
+  background-color: #fff0f0;
+
+  border: 1px dashed #deb5b7;
+  border-radius: 12px;
+
+  padding: 15px 25px;
+
+  text-align: center;
+
+  color: #6c625e;
+
+  font-size: 17px;
+
+  line-height: 1.5;
+}
+
+.intro-title {
+  color: #c9888e;
+
+  font-size: 20px;
+
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+.intro-box p:last-child {
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+
+/* =========================
+   유키 힐링 비밀 카드
+========================= */
+
+.healing-card {
+  position: absolute;
+
+  right: -100px;
+  bottom: 95px;
+
+  width: 175px;
+
+  background-color: #fff4e8;
+
+  border: 1px solid #dfcdbb;
+  border-radius: 5px;
+
+  padding: 14px 17px;
+
+  text-decoration: none;
+
+  box-shadow: 4px 5px 7px #d8ccc2;
+
+  transform: rotate(4deg);
+
+  transition: 0.2s;
+}
+
+.healing-card:hover {
+  transform: rotate(1deg) translateY(-4px);
+
+  background-color: #fff9f2;
+}
+
+.healing-small {
+  color: #a89285;
+
+  font-size: 9px;
+  letter-spacing: 2px;
+
+  margin-top: 0;
+  margin-bottom: 7px;
+
+  border-bottom: 1px dashed #dacabd;
+
+  padding-bottom: 6px;
+}
+
+.healing-title {
+  color: #8c746c;
+
+  font-size: 15px;
+  line-height: 1.5;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.healing-click {
+  color: #d29398;
+
+  font-size: 12px;
+
+  margin-top: 4px;
+  margin-bottom: 0;
+
+  text-align: right;
+}
+
+
+/* =========================
+   맨 아래 이동 버튼
+========================= */
+
+.bottom-navigation {
+  margin-top: 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* 표지로 돌아가기 */
+
+.back-cover {
+  color: #8da8b5;
+
+  font-size: 16px;
+
+  text-decoration: none;
+}
+
+.back-cover:hover {
+  color: #d39499;
+}
+
+
+/* 마지막 페이지 버튼 */
+
+.ending-button {
+  background-color: #fff0f0;
+
+  border: 1px dashed #dcaeb2;
+  border-radius: 20px;
+
+  padding: 8px 18px;
+
+  color: #c4878d;
+
+  font-size: 15px;
+
+  text-decoration: none;
+
+  box-shadow: 2px 3px 5px #e2d6d0;
+}
+
+.ending-button:hover {
+  background-color: #e8f1f4;
+
+  color: #7897a3;
+}

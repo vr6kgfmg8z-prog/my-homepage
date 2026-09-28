@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  background-color: #eee4dc;
+
+  font-family: "Gaegu", cursive;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 40px 0;
+}
+
+
+/* 전체 마지막 페이지 */
+
+.ending-page {
+  width: 720px;
+
+  background-color: #fffaf5;
+
+  border: 2px solid #e5d1c5;
+  border-radius: 15px;
+
+  padding: 45px 60px;
+
+  box-shadow: 9px 9px 0px #dce7eb;
+
+  position: relative;
+}
+
+
+/* 날짜 */
+
+.date {
+  color: #9caeb5;
+
+  font-size: 13px;
+  letter-spacing: 3px;
+
+  border-bottom: 1px solid #e5cccc;
+
+  padding-bottom: 12px;
+}
+
+
+/* 오른쪽 위 작은 메모 */
+
+.little-note {
+  position: absolute;
+
+  right: 45px;
+  top: 75px;
+
+  background-color: #f3e6d5;
+
+  color: #a38b80;
+
+  padding: 8px 13px;
+
+  font-size: 13px;
+
+  transform: rotate(3deg);
+
+  box-shadow: 2px 3px 4px #ded3ca;
+}
+
+
+/* 제목 */
+
+.title-area {
+  text-align: center;
+
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.small-title {
+  color: #c3999c;
+
+  font-size: 12px;
+  letter-spacing: 4px;
+
+  margin-bottom: 3px;
+}
+
+h1 {
+  color: #dc9fa3;
+
+  font-size: 45px;
+  font-weight: normal;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  color: #aaa09a;
+
+  font-size: 15px;
+
+  margin-top: 3px;
+}
+
+
+/* 편지 */
+
+.letter {
+  width: 540px;
+
+  margin: 0 auto;
+
+  background-color: #fffdf8;
+
+  border: 1px solid #ead9cc;
+
+  padding: 35px 45px;
+
+  color: #675f5b;
+
+  font-size: 18px;
+  line-height: 1.9;
+
+  box-shadow: 4px 5px 8px #e1d7cf;
+
+  transform: rotate(-1deg);
+}
+
+.dear {
+  color: #c3878d;
+
+  font-size: 22px;
+
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.letter p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+/* 가운데 하트 */
+
+.heart {
+  text-align: center;
+
+  color: #d99a9f;
+
+  font-size: 30px;
+
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+
+/* 영어 감사 문구 */
+
+.thank-you {
+  text-align: center;
+
+  color: #c2858b;
+
+  font-size: 23px;
+}
+
+
+/* From Jibin */
+
+.from {
+  text-align: right;
+
+  color: #9b8881;
+
+  font-size: 18px;
+
+  margin-top: 25px;
+}
+
+
+/* P.S. 유키 */
+
+.ps-note {
+  width: 360px;
+
+  margin: 35px auto 0 auto;
+
+  background-color: #edf3f4;
+
+  border: 1px dashed #b9cbd0;
+  border-radius: 10px;
+
+  padding: 13px 20px;
+
+  text-align: center;
+
+  transform: rotate(2deg);
+}
+
+.ps-note p {
+  color: #7e8e93;
+
+  font-size: 14px;
+
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.ps-note a {
+  color: #b77f85;
+
+  font-size: 16px;
+
+  text-decoration: none;
+}
+
+.ps-note a:hover {
+  color: #7896a0;
+}
+
+
+/* 페이지 이동 */
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 35px;
+}
+
+.navigation a {
+  color: #8da5ae;
+
+  font-size: 16px;
+
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: #d18f95;
+}
+
+
+/* 처음부터 다시 보기 */
+
+.navigation .restart {
+  color: #c68b90;
+}
